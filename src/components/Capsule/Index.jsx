@@ -74,9 +74,11 @@ gsap.registerPlugin(ScrollTrigger);
                     <button className="bg-[#8B5CF6] text-white px-4 rounded-full text-medium py-3 mb-6 mt-10 font-semibold">Liderança de Pensamento</button>
                 
                 <div className="text text-center text-[3.2vh] flex flex-col gap-6 mb-6 font-semibold leading-[4.8vh]">
+                    <h3>
                         Como Usar Experiências <br/>
                         Digitais Premium Para <br/>Elevar Sua Marca Acima <br/>da Concorrência
                     </h3>
+                    <h4>
                         Como usar designs únicos e experiências <br/> personalizadas para transformar visitantes <br/>
                         em clientes apaixonados pela sua marca
                     </h4>
