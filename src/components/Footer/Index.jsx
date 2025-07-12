@@ -10,7 +10,7 @@ function Footer() {
       <div className="topfoot bg-[#8B5CF6] pt-16 pb-16 sm:flex items-center justify-between">
         <div className="left sm:w-1/2 px-8 sm:px-8  ">
           <div className="first order-1 font-[SansitaReg]  text-[6vh] leading-[7vh] sm:text-[4.2rem] w-1/3 sm:leading-[5rem] sm:mb-10 ">
-            <h1 className="text-white">Descubra Nossa Magia.</h1>
+            <h1 className="text-white">Seu Site Não Deveria Entediar.</h1>
           </div>
           <div className='middle order-3 sm:order-2 w-[20vh] text-center mt-6 px-4 py-4 sm:w-fit sm:px-4 sm:py-[1.6vh] bg-[--black] text-white whitespace-nowrap'>
             <div 
@@ -23,7 +23,7 @@ function Footer() {
                 text-[2.1vh] capitalize tracking-normal 
                 font-semibold `}
               >
-                VAMOS LÁ
+                FAZER MEU SITE
               </span>
               <LuArrowUpRight 
                 style={{
@@ -39,9 +39,9 @@ function Footer() {
         <div className="right order-2 sm:order-3  flex sm:w-1/2 items-center justify-between sm:px-10">
           <div className="rght1 sm:w-2/3 flex flex-col items-end px-8 mt-6">
             <h3 className="text-[2.4vh] sm:text-[1.4rem] font-[Sansita] font-medium text-white">
-              Descubra como nossos designs centrados nas
-              pessoas podem tornar sua presença digital mais
-              poderosa e envolvente.
+              Vamos criar uma experiência digital que faça
+              seus clientes pararem, prestarem atenção e
+              tomarem ação. Porque experiências incríveis convertem.
             </h3>
           </div>
           <div className="hidden sm:inline-block rght2 relative w-[150px] h-[150px]  overflow: hidden;">
@@ -74,8 +74,7 @@ function Footer() {
             })}
           </div>
           <div className=''>
-            <h1 className='text-white pb-10 font-[SansitaReg] text-[2.8vh] font-semibold'>Join our mailing list for the latest updates.</h1>
-              Junte-se à nossa lista para as últimas atualizações.
+            <h1 className='text-white pb-10 font-[SansitaReg] text-[2.8vh] font-semibold'>Receba cases e dicas que realmente convertem.</h1>
               <input 
                 type="text" 
                 placeholder="Digite seu endereço de email" 
@@ -85,7 +84,7 @@ function Footer() {
             </div>
           </div>
           <div className=' hidden sm:inline-block '>
-            {["Cases", "Newsroom", "Recursos", "Carreiras", "Contato"].map((item, index) => {
+            {["Cases", "Blog", "Recursos", "Vagas", "Contato"].map((item, index) => {
               return (
                 <div key={index} className='pb-4'>
                   <h3 className='font-[SansitaReg] text-[2.5vh] text-white font-semibold'>

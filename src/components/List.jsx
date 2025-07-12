@@ -14,15 +14,17 @@ import { gsap } from "gsap";
 import { Power4} from 'gsap/gsap-core';
 
 const data = [
-    {key: 1, title: "Marina Silva", role: "CEO", img: img1},
-    {key: 2, title: "Lucas Andrade", role: "COO", img: img2},
-    {key: 3, title: "Carolina Ribeiro", role: "Diretora Criativa", img: img3},
-    {key: 4, title: "Victor Santos", role: "CTO", img: img4},
-    {key: 5, title: "Dra. Ana Figueiredo", role: "Diretora de Inovação", img: img5},
-    {key: 6, title: "Miguel Rocha", role: "VP de Marketing", img: img6},
-    {key: 7, title: "Adriana Costa", role: "VP de Engenharia", img: img7},
-    {key: 8, title: "Caio Ferreira", role: "VP de Produto", img: img8},
-    {key: 9, title: "Letícia Machado", role: "VP de Parcerias", img: img9},
+    {key: 1, title: "Renan", role: "Sócio Comercial", img: img1},
+    {key: 2, title: "Henrique", role: "Sócio Gestor Operacional", img: img2},
+    {key: 3, title: "Danilo", role: "Administrativo/Financeiro", img: img3},
+    {key: 4, title: "Fabrício", role: "Gestor de Contas e Experiência", img: img4},
+    {key: 5, title: "Luís", role: "Gestor de Tráfego e Performance", img: img5},
+    {key: 6, title: "Arthur", role: "Analista de Oportunidades", img: img6},
+    {key: 7, title: "Talita", role: "Analista de Oportunidades", img: img7},
+    {key: 8, title: "Juliana", role: "Analista de Oportunidades", img: img8},
+    {key: 9, title: "Theo", role: "Designer", img: img9},
+    {key: 10, title: "Raquel", role: "Editora de Vídeo", img: img1},
+    {key: 11, title: "Bruno", role: "Desenvolvedor", img: img2},
 ]
 
 

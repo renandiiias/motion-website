@@ -92,14 +92,13 @@ function Craft() {
                 className="ptag font-[Sansita] text-[2.6vh] sm:text-[2.9vh] 
                 font-medium leading-[4.4vh] sm:leading-[4.2vh] "
             >
-                Nossa agência é uma desenvolvedora de experiências digitais premium fundada na crença 
-                de que o design pode transformar negócios para colocar pessoas em primeiro lugar. 
-                Colocamos a humanidade de volta no centro da experiência digital, simplificando complexidade, 
-                acelerando capacidade e melhorando resultados.
+                Somos a Helpu, e acreditamos que o seu site não deveria ser apenas mais um na multidão.
+                Criamos experiências digitais que fazem as pessoas pararem, prestarem atenção e tomarem ação.
+                Porque no final das contas, experiências incríveis geram mais leads, mais vendas e mais sucesso.
             </p>
-            <h1 className="texthead font-[SansitaReg] text-[5vh] leading-[6vh] sm:text-[9.8vh] sm:leading-[12vh] mt-10 mb-10">Criamos Experiências Digitais Que Conquistam Corações</h1>
+            <h1 className="texthead font-[SansitaReg] text-[5vh] leading-[6vh] sm:text-[9.8vh] sm:leading-[12vh] mt-10 mb-10">Sites Que Não Entediam. Experiências Que Convertem.</h1>
             {/* button */}
-            <Button  bgColor="bg-none" text="NOSSAS SOLUÇÕES" />
+            <Button  bgColor="bg-none" text="NOSSOS SITES" />
         </div>
         <div
             ref={container} 
