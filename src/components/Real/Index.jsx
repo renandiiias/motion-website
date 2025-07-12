@@ -66,10 +66,10 @@ function Real() {
                     sm:text-[15vh] sm:leading-[18vh]"
                 >
                     <h1 className="">
-                        Real Talk,    
+                        Conversa Real,    
                     </h1>
                     <h1 className="">
-                        Real Impact
+                        Impacto Real
                     </h1>
                 </div>
                 <div 
@@ -104,13 +104,13 @@ function Real() {
                         tracking-tight text-[2.2vh] sm:absolute top-0 left-0 z-[3]  -translate-y-2/3 
                         sm:-translate-y-1/2 -translate-x-1/3'
                     >
-                        We’re on a mission to impact as many lives as possible and build a better company while we do it. Here’s our progress.
+                        Estamos em uma missão para impactar o maior número possível de vidas e construir uma empresa melhor enquanto fazemos isso. Aqui está nosso progresso.
                     </h3>
                     <h1 className=' font-semibold text-[10vh] sm:text-[20vh] leading-none text-white '>
-                        20.4M
+                        15.8M
                     </h1>
                     <h3 className=' text-[2vh] sm:text-[5vh] font-semibold sm:leading-[7vh]'>
-                        Real people — real lives — we have built products and solutions for.
+                        Pessoas reais — vidas reais — para quem construímos produtos e soluções digitais.
                     </h3>    
                 </div>
                 <div 
@@ -167,13 +167,13 @@ function Real() {
                         sm:text-[2.5vh] absolute sm:top-0 sm:left-0 -translate-x-1/2 -translate-y-[30vh] z-[3] 
                         sm:-translate-y-1/2 sm:-translate-x-1/3'
                     >
-                        Our team is global and diverse, because our individual experiences make us stronger.
+                        Nossa equipe é global e diversa, porque nossas experiências individuais nos tornam mais fortes.
                     </h3>
                     <h1 className=' font-semibold text-[10vh] sm:text-[20vh] leading-none text-white'>
-                        49%
+                        52%
                     </h1>
                     <h3 className='text-[3.5vh] whitespace-nowrap sm:text-[6vh] font-semibold sm:leading-[6vh]'>
-                        Expert Women in Tech.
+                        Mulheres Especialistas em Tech.
                     </h3>    
                 </div>
                 <div 
@@ -213,10 +213,10 @@ function Real() {
                 </div>
                 <div className='w-[60%] text-center font-[SansitaReg] relative'>                   
                     <h1 className=' font-semibold text-[10vh] sm:text-[20vh] leading-none text-white'>
-                        13
+                        11
                     </h1>
                     <h3 className='text-[3.1vh] leading-[3.4vh] sm:text-[6vh] font-semibold sm:leading-[8vh]'>
-                        Nationalities Represented on Our <br/> Team.
+                        Nacionalidades Representadas em Nossa <br/> Equipe.
                     </h3>    
                 </div>
                 <div 

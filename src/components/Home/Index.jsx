@@ -127,7 +127,7 @@ function Home() {
                         </svg>
                     </div>                   
                     <div className="hidden md:flex gap-2 items-center z-[9] cursor-pointer ">
-                        {["Solutions", "About", "Insight", "Team", "Careers"].map((item, index) => (
+                        {["Soluções", "Sobre", "Cases", "Equipe", "Carreiras"].map((item, index) => (
                             <h4 key={index} className={`${styles.links} h-[3vh] relative py[2.4vh] px-[2.2vh] text-center  flex flex-col
                             font-[Sansita] text-[2.1vh] overflow-hidden font-medium leading-[2.5vh]`}> 
                                 <a className={`atag ${styles.atag} relative`}>{item} </a>
@@ -150,9 +150,9 @@ function Home() {
 
             <div className='btmtext absolute z-[4] bottom-[4%] left-[25%] text-center sm:text-start sm:bottom-[7%] sm:left-8 w-48 '>
                 <h1 className='sm:text-[2vh] font-semibold'>
-                    We build big ideas.
-                    Software. Apps. Tools.
-                    For real people. Real lives.
+                    Construímos grandes ideias.
+                    Sites. Apps. Plataformas.
+                    Para pessoas reais. Vidas reais.
                 </h1>
             </div>
             {/* video div */}
@@ -169,7 +169,7 @@ function Home() {
                     muted
                     src={video}
                 >     
-                </video> 
+                <h2 className='toptext text-[2.2vh] font-[Sansita] tracking-wide font-medium text-center'>Criando um novo paradigma digital, um que é</h2>
             </div>
 
             {/* marquee div */}

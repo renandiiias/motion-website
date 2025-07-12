@@ -37,12 +37,13 @@ function Para2() {
                 <hr className='bg-zinc-400 w-[20%] h-[.3vh]' />
             </div>    
             <h3 className='textpara2 sm:w-[40%] text-purple-600 font-[Sansita] text-[2.4vh] sm:text-[3.5vh] font-medium text-center tracking-wide leading-[5vh] mb-10'> Working with Significo and their recommendation service has been a game-changer for our occupational prevention efforts. Our customers are extremely satisfied with the tool&apos;s impressive technical capabilities and data-driven approach. But what truly sets it apart is the intuitive and modern user experience it offers, making it a breeze for our clients to navigate. By leveraging this service, our customers have successfully tackled presenteeism and absenteeism, making a significant impact on their workforce&apos;s well-being.</h3>
+            <h3 className='textpara2 sm:w-[40%] text-purple-600 font-[Sansita] text-[2.4vh] sm:text-[3.5vh] font-medium text-center tracking-wide leading-[5vh] mb-10'>Trabalhar com nossa agência e seu serviço de recomendação tem sido revolucionário para nossos esforços de prevenção ocupacional. Nossos clientes estão extremamente satisfeitos com as impressionantes capacidades técnicas da ferramenta e abordagem orientada por dados. Mas o que realmente a diferencia é a experiência de usuário intuitiva e moderna que oferece, tornando super fácil para nossos clientes navegarem. Ao aproveitar este serviço, nossos clientes conseguiram enfrentar com sucesso o presenteísmo e absenteísmo, causando um impacto significativo no bem-estar de sua força de trabalho.</h3>
             <div className="pers w-[40%] flex flex-col items-center justify-center gap-2">
                 <div className="image w-24 h-24 overflow-hidden rounded-full ">
                     <img src={img1} />
                 </div>
-                <h1 className='text-[2.8vh] sm:text-[3.8vh] font-medium'>Emek Altun</h1>
-                <h3 className='text-zinc-500 text-[2.4vh] whitespace-nowrap'>CEO @ Vitaservices</h3>
+                <h1 className='text-[2.8vh] sm:text-[3.8vh] font-medium'>Eduardo Almeida</h1>
+                <h3 className='text-zinc-500 text-[2.4vh] whitespace-nowrap'>CEO @ VitalServices</h3>
             </div>
         </div>  
     </div>

@@ -1,10 +1,12 @@
 :root {
-    --salmon: #EF9D71;
+    --salmon: #8B5CF6;
     --black: #000;
     --light: #fff;
-    --cyan:  #aedee0;
-    --dcyan: #141b1b;
-    --dsalmon: #1e130e;
+    --cyan:  #F3F4F6;
+    --dcyan: #1F2937;
+    --dsalmon: #374151;
+    --purple: #8B5CF6;
+    --dpurple: #6D28D9;
 }
 
 
@@ -35,20 +37,20 @@ body[theme="white"] .section {
 }
 
 body[theme="cyan"] {
-    background-color: var(--cyan);
+    background-color: var(--purple);
     
 }
 
 body[theme="cyan"] .section {
-    color: var(--dcyan);
+    color: var(--light);
 }
 
 body[theme="salmon"] {
-    background-color: var(--salmon);  
+    background-color: var(--light);  
 }
 
 body[theme="salmon"] .section {
-    color: var(--dsalmon);
+    color: var(--black);
 }
 
 @font-face {
