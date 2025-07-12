@@ -57,6 +57,7 @@ gsap.registerPlugin(ScrollTrigger);
                     <img className="h-full w-full object-cover" src={cap1} />
                 </div>
                 <div className="text text-center text-[6vw] sm:text-[3.2vh] font-semibold mt-10 leading-[4.8vh]">
+                    <h3>
                         Revolução Digital: Uma <br/>
                         Conversa Sobre Design <br/> Inclusivo Com Nossa <br/>Diretora 
                         Criativa

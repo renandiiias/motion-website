@@ -1,6 +1,3 @@
-Here's the fixed version with added closing brackets:
-
-```javascript
 import video from '../../assets/video/1ENIoa5sjq.mp4'
 import Row from '../Row'
 import {useEffect, useState, useRef} from 'react';
@@ -10,7 +7,6 @@ import styles from './Style.module.css';
 import { Power2, Power4 } from 'gsap/gsap-core';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from '@gsap/react';
-// import { AiOutlineMenu } from "react-icons/ai";
 import { BiMenu } from "react-icons/bi";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -130,4 +126,57 @@ function Home() {
                             </defs>
                         </svg>
                     </div>                   
-                    <div className="hidden m
+                    <div className="hidden sm:inline-block">
+                        <ul className="flex items-center gap-10 text-white ">
+                            {["Soluções", "Sobre", "Cases", "Equipe", "Carreiras"].map((item, index) => (
+                                <li key={index} className="font-[Sansita] text-[2.5vh] font-semibold capitalize cursor-pointer hover:text-[#8B5CF6] transition-colors duration-300">
+                                    {item}
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                    <div className="sm:hidden block">
+                        <BiMenu className="text-white text-3xl" />
+                    </div>
+                </div>
+            </motion.div>
+            
+            {/* video */}
+            <div className="vdodiv w-full h-screen absolute top-0 left-0 overflow-hidden" style={{clipPath: 'circle(70% at 50% 50%)'}}>
+                <video 
+                    autoPlay 
+                    loop 
+                    muted 
+                    className="w-full h-full object-cover"
+                    src={video}
+                ></video>
+            </div>
+            <div className="slidesm h-screen w-full relative z-[2] bg-black flex flex-col items-center justify-center text-white px-8">
+                <div className="text-content text-center max-w-4xl">
+                    <h1 className="toptext font-[SansitaReg] text-[5vh] sm:text-[8vh] leading-[6vh] sm:leading-[9vh] mb-8">
+                        Criamos Experiências Digitais Que Conquistam Corações
+                    </h1>
+                    <p className="font-[Sansita] text-[2.4vh] leading-[3.6vh] mb-12 opacity-80">
+                        Construímos grandes ideias. Sites. Apps. Plataformas. Para pessoas reais. Vidas reais.
+                    </p>
+                    <div className="flex flex-wrap gap-4 justify-center text-[1.8vh] font-[Sansita] mb-12">
+                        {["útil", "intuitivo", "empático"].map((word, index) => (
+                            <span key={index} className="lft text-[#8B5CF6] font-semibold">
+                                {word}
+                            </span>
+                        ))}
+                        {["útil", "empático", "intuitivo"].map((word, index) => (
+                            <span key={index} className="rgt text-[#8B5CF6] font-semibold">
+                                {word}
+                            </span>
+                        ))}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <Row />
+    </div>
+    )
+}
+
+export default Home

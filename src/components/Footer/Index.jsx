@@ -12,7 +12,6 @@ function Footer() {
           <div className="first order-1 font-[SansitaReg]  text-[6vh] leading-[7vh] sm:text-[4.2rem] w-1/3 sm:leading-[5rem] sm:mb-10 ">
             <h1 className="text-white">Descubra Nossa Magia.</h1>
           </div>
-          {/* <Bu/> */}
           <div className='middle order-3 sm:order-2 w-[20vh] text-center mt-6 px-4 py-4 sm:w-fit sm:px-4 sm:py-[1.6vh] bg-[--black] text-white whitespace-nowrap'>
             <div 
               className= {`${styles.masker} flex items-center 
@@ -39,7 +38,6 @@ function Footer() {
 
         <div className="right order-2 sm:order-3  flex sm:w-1/2 items-center justify-between sm:px-10">
           <div className="rght1 sm:w-2/3 flex flex-col items-end px-8 mt-6">
-            <h3 className="text-[2.4vh] sm:text-[1.4rem] font-[Sansita] font-medium">
             <h3 className="text-[2.4vh] sm:text-[1.4rem] font-[Sansita] font-medium text-white">
               Descubra como nossos designs centrados nas
               pessoas podem tornar sua presença digital mais
