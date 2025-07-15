@@ -5,8 +5,15 @@ import styles from './Button.module.css';
 import PropTypes from 'prop-types';
 
 function Button({bgColor, text}) {
+  const whatsappNumber = "5517996533627";
+  const message = "Vi seu site tenho interesse em entender mais";
+  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+
   return (
-    <div 
+    <a 
+      href={whatsappUrl}
+      target="_blank"
+      rel="noopener noreferrer"
       className={`${bgColor} section w-fit sm:w-fit px-4 
       py-[1.6vh] border-[1px] border-[--black]`}
     >
@@ -29,7 +36,7 @@ function Button({bgColor, text}) {
           className={`${styles.iconMask}`} 
         /> 
         </div>         
-    </div>
+    </a>
   )
 }
 

@@ -58,11 +58,21 @@ gsap.registerPlugin(ScrollTrigger);
                 </div>
                 <div className="text text-center text-[6vw] sm:text-[3.2vh] font-semibold mt-10 leading-[4.8vh]">
                     <h3>
-                        Como Transformamos <br/>
-                        Uma Startup em <br/> Unicórnio Com Um <br/>Site Que Converte
+                        Case de Sucesso <br/>
+                        em Conversão <br/> 
+                        Digital
                     </h3>
                 </div>
                 <button className="bg-[#8B5CF6] text-white px-4 rounded-full text-medium py-3 mb-10 mt-10 font-semibold">Case de Sucesso</button>
+                <a 
+                  href="https://wa.me/5517996533627?text=Vi%20seu%20site%20tenho%20interesse%20em%20entender%20mais"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-[#8B5CF6] text-white px-4 rounded-full text-medium py-3 mb-10 mt-10 font-semibold"
+                >
+                  Case de Sucesso
+                </a>
+
 
             </div>
             {/* 2nd capsule */}
@@ -70,7 +80,14 @@ gsap.registerPlugin(ScrollTrigger);
                 className="capsule flex flex-col items-center gap-4 p-6 sm:-rotate-[16deg] sm:translate-y-40
                 rounded-full border-[1px] border-black"
             >
-                    <button className="bg-[#8B5CF6] text-white px-4 rounded-full text-medium py-3 mb-6 mt-10 font-semibold">Case de Sucesso</button>
+                    <a 
+                      href="https://wa.me/5517996533627?text=Vi%20seu%20site%20tenho%20interesse%20em%20entender%20mais"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-[#8B5CF6] text-white px-4 rounded-full text-medium py-3 mb-6 mt-10 font-semibold"
+                    >
+                      Case de Sucesso
+                    </a>
                 
                 <div className="text text-center text-[3.2vh] flex flex-col gap-6 mb-6 font-semibold leading-[4.8vh]">
                     <h3>
