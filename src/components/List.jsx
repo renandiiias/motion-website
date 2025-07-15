@@ -4,46 +4,53 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-function Para() {
-    useEffect(() => {
-        var clutter = "";
-        const para = document.querySelector(".textpara")
-        const characters = para.textContent.split("")
-        characters.forEach(function(e) {
-            
-            clutter += `<span>${e}</span>`
-        })
-        para.innerHTML = clutter;   
-        gsap.set(".textpara span", {opacity: .1})
-        gsap.to(".textpara span", {
-            scrollTrigger: {
-                trigger: ".para",
-                start: "top 70%",
-                end: "bottom 90%",
-                scrub: 1,
-            },
-            opacity: 1, 
-            stagger: .03,
-            
-        })
-    },[]);
-
+function List() {
     
+    const teamMembers = [
+        { name: "Renan", role: "Sócio Comercial" },
+        { name: "Henrique", role: "Sócio Gestor Operacional" },
+        { name: "Danilo", role: "Administrativo/Financeiro" },
+        { name: "Fabrício", role: "Gestor de Contas e Experiência" },
+        { name: "Luís", role: "Gestor de Tráfego e Performance" },
+        { name: "Arthur", role: "Analista de Oportunidades" },
+        { name: "Talita", role: "Analista de Oportunidades" },
+        { name: "Juliana", role: "Analista de Oportunidades" },
+        { name: "Theo", role: "Designer" },
+        { name: "Raquel", role: "Editora de Vídeo" },
+        { name: "Bruno", role: "Desenvolvedor" }
+    ];
 
-  return (
-    <div data-color="white" className="para section w-full flex items-center justify-center px-8  ">
-        <div className="text sm:w-[80%] flex flex-col items-center sm:items-start justify-between ">
-            <div className='hidden w-[50%] sm:flex items-center justify-center mb-12'>
-                <hr className='bg-zinc-400 w-[20%] h-[.3vh]' />
-            </div>    
-            <h3 className='textpara sm:w-[50%] text-purple-600 font-[Sansita] tracking-wide text-[2.4vh] sm:text-[3.5vh] font-medium text-center leading-[5vh] mb-10'>A Helpu entregou muito mais do que um site. Eles criaram uma experiência que nossos clientes adoram e que realmente converte. Desde o primeiro contato, percebi que eles entendem que um site não é só design bonito, é uma ferramenta de vendas. Nossos leads aumentaram 340% em 3 meses. Não posso recomendar o suficiente!</h3>
-            <div className="pers w-[50%] flex flex-col items-center justify-center gap-2 ">
-                <h1 className=' text-[2.8vh] sm:text-[3.8vh] font-medium'>Mariana Souza</h1>
-                <h3 className='text-zinc-500 text-[2.4vh] whitespace-nowrap'>CEO @ BeautyTech</h3>
+    useEffect(() => {
+        gsap.fromTo('.team-member', {
+            y: 50,
+            opacity: 0
+        }, {
+            y: 0,
+            opacity: 1,
+            duration: 0.6,
+            stagger: 0.1,
+            scrollTrigger: {
+                trigger: ".team-list",
+                start: "top 80%",
+                end: "bottom 20%",
+                toggleActions: "play none none reverse"
+            }
+        });
+    }, []);
+
+    return (
+        <div className="team-list w-full">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {teamMembers.map((member, index) => (
+                    <div key={index} className="team-member bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
+                        <h3 className="text-2xl font-[SansitaBold] text-gray-800 mb-2">{member.name}</h3>
+                        <p className="text-lg font-[Sansita] text-gray-600">{member.role}</p>
+                    </div>
+                ))}
             </div>
-        </div>  
-    </div>
-  )
+        </div>
+    );
 }
 
-export default Para
+export default List;
+</parameter>
