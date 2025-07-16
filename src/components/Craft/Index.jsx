@@ -96,7 +96,10 @@ function Craft() {
                 Criamos experiências digitais que fazem as pessoas pararem, prestarem atenção e tomarem ação.
                 Porque no final das contas, experiências incríveis geram mais leads, mais vendas e mais sucesso.
             </p>
-            <h1 className="texthead font-[SansitaReg] text-[5vh] leading-[6vh] sm:text-[9.8vh] sm:leading-[12vh] mt-10 mb-10">Sites Que Não Entediam. Experiências Que Convertem.</h1>
+            <h1 className="texthead font-[SansitaReg] text-[5vh] leading-[6vh] sm:text-[9.8vh] sm:leading-[12vh] mt-10 mb-10">
+                Sites Que Não Entediam.<br/>
+                Experiências Que Convertem.
+            </h1>
             {/* button */}
             <Button  bgColor="bg-none" text="NOSSOS SITES" />
         </div>
