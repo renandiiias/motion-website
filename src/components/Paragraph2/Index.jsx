@@ -36,7 +36,7 @@ function Para2() {
             <div className='hidden w-[40%] sm:flex items-center justify-center mb-12'>
                 <hr className='bg-zinc-400 w-[20%] h-[.3vh]' />
             </div>    
-            <h3 className='textpara2 sm:w-[40%] text-purple-600 font-[Sansita] text-[2.4vh] sm:text-[3.5vh] font-medium text-center tracking-wide leading-[5vh] mb-10'>Eu já tinha trabalhado com outras agências antes, mas nunca vi nada parecido com o que a Helpu fez. O site que eles criaram para nós não é só visualmente impressionante, ele trabalha 24/7 como nosso melhor vendedor. A experiência é tão fluida que nossos clientes nem percebem quando decidem comprar - simplesmente acontece naturalmente.</h3>
+            <h3 className='textpara2 sm:w-[40%] text-purple-600 font-[Sansita] text-[2.4vh] sm:text-[3.5vh] font-medium text-center tracking-wide leading-[5vh] mb-10'>Eu já tinha trabalhado com outras agências antes, mas nunca vi nada parecido com o que a Helpu fez. O site que eles criaram para nós não é só visualmente impressionante, ele trabalha 24/7 como nosso melhor vendedor.</h3>
             <div className="pers w-[40%] flex flex-col items-center justify-center gap-2">
                 <h1 className='text-[2.8vh] sm:text-[3.8vh] font-medium'>Carlos Mendes</h1>
             </div>
