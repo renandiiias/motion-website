@@ -111,15 +111,6 @@ function Home() {
                             </text>
                         </svg>
                     </div>                   
-                    <div className="hidden sm:inline-block">
-                        <ul className="flex items-center gap-10 text-white ">
-                            {["Sites", "Sobre", "Cases", "Equipe", "Contato"].map((item, index) => (
-                                <li key={index} className="font-[Sansita] text-[2.5vh] font-semibold capitalize cursor-pointer hover:text-[#8B5CF6] transition-colors duration-300">
-                                    {item}
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
                     <div className="sm:hidden block">
                         <BiMenu className="text-white text-3xl" />
                     </div>
