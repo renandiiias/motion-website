@@ -40,7 +40,6 @@ function Para() {
             <h3 className='textpara sm:w-[50%] text-purple-600 font-[Sansita] tracking-wide text-[2.4vh] sm:text-[3.5vh] font-medium text-center leading-[5vh] mb-10'>A Helpu entregou muito mais do que um site. Eles criaram uma experiência que nossos clientes adoram e que realmente converte. Desde o primeiro contato, percebi que eles entendem que um site não é só design bonito, é uma ferramenta de vendas. Nossos leads aumentaram 340% em 3 meses. Não posso recomendar o suficiente!</h3>
             <div className="pers w-[50%] flex flex-col items-center justify-center gap-2 ">
                 <h1 className=' text-[2.8vh] sm:text-[3.8vh] font-medium'>Mariana Souza</h1>
-                <h3 className='text-zinc-500 text-[2.4vh] whitespace-nowrap'>CEO BeautyTech</h3>
             </div>
         </div>  
     </div>
