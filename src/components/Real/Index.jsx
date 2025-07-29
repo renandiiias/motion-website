@@ -46,7 +46,7 @@ function Real() {
     <div  
         data-color="salmon" 
         ref={container} 
-        className="real section sm:w-full  px-8 sm:px-8 mt-32"
+        className="real section w-full px-4 sm:px-8 mt-16 sm:mt-32"
     >
       <div 
         className="cont h-[400vh] relative"
@@ -57,13 +57,13 @@ function Real() {
         >
             {/* 1st slide */}
             <div 
-                className="slide w-full flex sm:flex items-center 
+                className="slide w-full flex flex-col sm:flex-row items-center 
                 justify-center h-screen flex-shrink-0 "
             >
                 
                 <div 
-                    className="text1 font-[SansitaReg] text-[7vh] leading-[8vh]
-                    sm:text-[15vh] sm:leading-[18vh]"
+                    className="text1 font-[SansitaReg] text-[5vh] leading-[5.5vh] text-center sm:text-left
+                    sm:text-[15vh] sm:leading-[18vh] mb-4 sm:mb-0"
                 >
                     <h1 className="">
                         Resultados Reais,    
@@ -73,9 +73,8 @@ function Real() {
                     </h1>
                 </div>
                 <div 
-                    className="image absolute w-[20vh] h-[20vh] sm:w-[45vh] sm:h-[45vh] -translate-y-2/5
-                    top-1/2 sm:-translate-y-1/2 translate-x-1/2
-                    right-0 "
+                    className="image relative sm:absolute w-[20vh] h-[20vh] sm:w-[45vh] sm:h-[45vh] 
+                    sm:top-1/2 sm:-translate-y-1/2 sm:translate-x-1/2 sm:right-0"
                 >
                     <img 
                         src={img1}
@@ -86,36 +85,36 @@ function Real() {
             </div>
             {/* 2nd slide */}
             <div   
-                className="slide w-full h-screen sm:flex flex items-center 
+                className="slide w-full h-screen flex flex-col sm:flex-row items-center 
                 justify-center flex-shrink-0 relative "
             >
                 <div 
-                    className="image absolute w-[20vh] h-[20vh] sm:w-[40vh] sm:h-[40vh] 
-                    top-10 -translate-y-1/2 right-1/6"
+                    className="image absolute w-[15vh] h-[15vh] sm:w-[40vh] sm:h-[40vh] 
+                    top-4 sm:top-10 right-4 sm:right-1/6 sm:-translate-y-1/2"
                 >
                     <img 
                         src={img2}
                         className="w-full h-full object-contain rounded-full"
                     />
                 </div>
-                <div className='w-[60%] text-center font-[SansitaReg] relative'>
+                <div className='w-[90%] sm:w-[60%] text-center font-[SansitaReg] relative px-4 sm:px-0'>
                     <h3 
-                        className='font-[Sansita] sm:w-1/3 text-left font-semibold 
-                        tracking-tight text-[2.2vh] sm:absolute top-0 left-0 z-[3]  -translate-y-2/3 
-                        sm:-translate-y-1/2 -translate-x-1/3'
+                        className='font-[Sansita] w-full sm:w-1/3 text-center sm:text-left font-semibold 
+                        tracking-tight text-[1.8vh] sm:text-[2.2vh] mb-4 sm:mb-0 sm:absolute sm:top-0 sm:left-0 z-[3] 
+                        sm:-translate-y-1/2 sm:-translate-x-1/3'
                     >
                         Não são apenas números. São negócios que cresceram, marcas que se destacaram e pessoas que realizaram seus sonhos através de sites que realmente funcionam.
                     </h3>
-                    <h1 className=' font-semibold text-[10vh] sm:text-[20vh] leading-none text-white '>
+                    <h1 className='font-semibold text-[8vh] sm:text-[20vh] leading-none text-white'>
                         847
                     </h1>
-                    <h3 className=' text-[2vh] sm:text-[5vh] font-semibold sm:leading-[7vh]'>
+                    <h3 className='text-[2.2vh] sm:text-[5vh] font-semibold leading-[2.8vh] sm:leading-[7vh] px-2 sm:px-0'>
                         Sites entregues que não entediam ninguém.
                     </h3>    
                 </div>
                 <div 
-                    className="image absolute w-[12vh] sm:w-[20vh] sm:h-[20vh] top-4/5 bottom-[10vh]
-                    sm:top-2/3 sm:left-1/4 -translate-x-1/2"
+                    className="image absolute w-[10vh] h-[10vh] sm:w-[20vh] sm:h-[20vh] bottom-[15vh] left-4
+                    sm:top-2/3 sm:left-1/4 sm:-translate-x-1/2"
                 >
                     <img 
                         src={img4}

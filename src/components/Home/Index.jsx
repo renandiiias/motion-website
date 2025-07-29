@@ -129,13 +129,13 @@ function Home() {
             </div>
             <div className="slidesm h-screen w-full relative z-[2] bg-black flex flex-col items-center justify-center text-white px-8">
                 <div className="text-content text-center max-w-4xl">
-                    <h1 className="toptext font-[SansitaReg] text-[5vh] sm:text-[8vh] leading-[6vh] sm:leading-[9vh] mb-8">
+                    <h1 className="toptext font-[SansitaReg] text-[4vh] sm:text-[8vh] leading-[4.5vh] sm:leading-[9vh] mb-6 sm:mb-8">
                         Sites Que Não Entediam. Experiências Que Convertem.
                     </h1>
-                    <p className="font-[Sansita] text-[2.4vh] leading-[3.6vh] mb-12 opacity-80">
+                    <p className="font-[Sansita] text-[2vh] sm:text-[2.4vh] leading-[2.8vh] sm:leading-[3.6vh] mb-8 sm:mb-12 opacity-80 px-4 sm:px-0">
                         Chega de sites mornos que ninguém lembra. Criamos experiências imersivas que transformam visitantes em clientes apaixonados.
                     </p>
-                    <div className="flex flex-wrap gap-4 justify-center text-[1.8vh] font-[Sansita] mb-12">
+                    <div className="flex flex-wrap gap-2 sm:gap-4 justify-center text-[1.6vh] sm:text-[1.8vh] font-[Sansita] mb-8 sm:mb-12">
                         {["imersivo", "memorável", "persuasivo"].map((word, index) => (
                             <span key={index} className="lft text-[#8B5CF6] font-semibold">
                                 {word}

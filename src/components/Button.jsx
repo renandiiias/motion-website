@@ -14,15 +14,15 @@ function Button({bgColor, text}) {
       href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className={`${bgColor} section w-fit sm:w-fit px-4 
-      py-[1.6vh] border-[1px] border-[--black]`}
+      className={`${bgColor} section w-full sm:w-fit px-4 text-center sm:text-left
+      py-[1.4vh] sm:py-[1.6vh] border-[1px] border-[--black]`}
     >
       <div 
         className= {`${styles.masker} flex items-center gap-2 overflow-hidden 
-        relative cursor-pointer`}
+        relative cursor-pointer justify-center sm:justify-start`}
       >
         <span 
-          className={`${styles.spanMask} font-[Sansita] text-[1.8vh] 
+          className={`${styles.spanMask} font-[Sansita] text-[1.6vh] sm:text-[1.8vh] 
           capitalize tracking-normal
           font-semibold`}
         >
@@ -30,10 +30,10 @@ function Button({bgColor, text}) {
         </span>
         <LuArrowUpRight 
           style={{
-            fontSize: "24px", 
+            fontSize: "20px", 
             color: "black", 
           }} 
-          className={`${styles.iconMask}`} 
+          className={`${styles.iconMask} sm:text-[24px]`}
         /> 
         </div>         
     </a>

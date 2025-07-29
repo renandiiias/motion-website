@@ -84,19 +84,19 @@ function Craft() {
   return (
     <div 
         data-color="cyan" 
-        className="craft section w-full sm:flex gap-x-40 justify-between 
-          items-center px-8 py-8 sm:px-10 relative "
+        className="craft section w-full flex flex-col sm:flex-row gap-8 sm:gap-x-40 justify-between 
+          items-start px-4 sm:px-8 py-8 sm:px-10 relative "
     >
-        <div className="ltext sm:sticky sm:top-[10%] left-0 sm:w-1/2 ">
+        <div className="ltext w-full sm:sticky sm:top-[10%] left-0 sm:w-1/2 mb-8 sm:mb-0">
             <p 
-                className="ptag font-[Sansita] text-[2.6vh] sm:text-[2.9vh] 
-                font-medium leading-[4.4vh] sm:leading-[4.2vh] "
+                className="ptag font-[Sansita] text-[2.2vh] sm:text-[2.9vh] 
+                font-medium leading-[3.2vh] sm:leading-[4.2vh] mb-6 sm:mb-0"
             >
                 Somos a Helpu, e acreditamos que o seu site não deveria ser apenas mais um na multidão.
                 Criamos experiências digitais que fazem as pessoas pararem, prestarem atenção e tomarem ação.
                 Porque no final das contas, experiências incríveis geram mais leads, mais vendas e mais sucesso.
             </p>
-            <h1 className="texthead font-[SansitaReg] text-[5vh] leading-[6vh] sm:text-[9.8vh] sm:leading-[12vh] mt-10 mb-10">
+            <h1 className="texthead font-[SansitaReg] text-[4vh] leading-[4.5vh] sm:text-[9.8vh] sm:leading-[12vh] mt-6 mb-6 sm:mt-10 sm:mb-10">
                 Sites Que Não Entediam.<br/>
                 Experiências Que Convertem.
             </h1>
@@ -105,7 +105,7 @@ function Craft() {
         </div>
         <div
             ref={container} 
-            className="right cards sm:w-1/2  flex items-center justify-center">                
+            className="right cards w-full sm:w-1/2 flex items-center justify-center">                
             <Card />
         </div>
     </div>
