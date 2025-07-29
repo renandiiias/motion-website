@@ -1,4 +1,3 @@
-import video from '../../assets/video/1ENIoa5sjq.mp4'
 import Row from '../Row'
 import {useEffect, useState, useRef} from 'react';
 import {motion, useScroll, useMotionValueEvent } from 'framer-motion';
@@ -50,13 +49,7 @@ function Home() {
             scrub: .5,
             }
          });
-         tl.to(".vdodiv", {
-            clipPath: 'circle(0% at 50% 50%)',
-            ease: Power4,
-          }, "start")
-          tl.to(".slidesm", {
-            scale: 1,
-            ease: Power2,
+         tl.to(".slidesm", {
          }, 'start');
          tl.to(".lft", {
             xPercent: -10,
@@ -117,16 +110,6 @@ function Home() {
                 </div>
             </motion.div>
             
-            {/* video */}
-            <div className="vdodiv w-full h-screen absolute top-0 left-0 overflow-hidden" style={{clipPath: 'circle(70% at 50% 50%)'}}>
-                <video 
-                    autoPlay 
-                    loop 
-                    muted 
-                    className="w-full h-full object-cover"
-                    src={video}
-                ></video>
-            </div>
             <div className="slidesm h-screen w-full relative z-[2] bg-black flex flex-col items-center justify-center text-white px-8">
                 <div className="text-content text-center max-w-4xl">
                     <h1 className="toptext font-[SansitaReg] text-[4vh] sm:text-[8vh] leading-[4.5vh] sm:leading-[9vh] mb-6 sm:mb-8">
