@@ -1,7 +1,7 @@
 import Button from "../Button";
 import {useRef} from 'react';
 import cap1 from '../../assets/images/cap1.png';
-import cap2 from '../../assets/images/cap2.jpg'
+import cap2 from '../../assets/images/cap2.jpg';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from '@gsap/react';
@@ -24,12 +24,12 @@ gsap.registerPlugin(ScrollTrigger);
             y: 0,
             marginTop:32,
             ease: Power4
-        })
+        });
         tl.to(".capsule:nth-child(1)", {
             marginTop: 32,
             ease: Power4
-        })
-    }, container);
+        });
+    }, { scope: container });
 
 
   return (
@@ -106,7 +106,8 @@ gsap.registerPlugin(ScrollTrigger);
             </div>
         </div>
     </div>
-  )
+  );
+}
 
-export default Capsule
+export default Capsule;
 
