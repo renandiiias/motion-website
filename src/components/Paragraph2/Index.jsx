@@ -30,15 +30,15 @@ function Para2() {
         })
     },[]);
   return (
-    <div data-color="white" className="para2 section w-full flex items-center mt-16 sm:mt-32 px-4 sm:px-8
-    justify-center py-8 sm:py-0">
-        <div className="text w-full sm:w-[80%] flex flex-col items-center sm:items-end justify-center">
-            <div className='hidden w-full sm:w-[40%] sm:flex items-center justify-center mb-12'>
+    <div data-color="white" className="para2 section w-full flex items-center mt-12 sm:mt-16 lg:mt-24 px-4 sm:px-6 lg:px-8
+    justify-center py-12 sm:py-16 lg:py-20">
+        <div className="text w-full lg:w-[80%] flex flex-col items-center lg:items-end justify-center">
+            <div className='hidden lg:w-[40%] lg:flex items-center justify-center mb-8 lg:mb-12'>
                 <hr className='bg-zinc-400 w-[20%] h-[.3vh]' />
             </div>    
-            <h3 className='textpara2 w-full sm:w-[40%] text-purple-600 font-[Sansita] text-[2vh] sm:text-[3.5vh] font-medium text-center tracking-wide leading-[3vh] sm:leading-[5vh] mb-6 sm:mb-10 px-4 sm:px-0'>Eu já tinha trabalhado com outras agências antes, mas nunca vi nada parecido com o que a Helpu fez. O site que eles criaram para nós não é só visualmente impressionante, ele trabalha 24/7 como nosso melhor vendedor.</h3>
-            <div className="pers w-full sm:w-[40%] flex flex-col items-center justify-center gap-2">
-                <h1 className='text-[2.4vh] sm:text-[3.8vh] font-medium'>Carlos Mendes</h1>
+            <h3 className='textpara2 w-full lg:w-[40%] text-purple-600 font-[Sansita] text-lg sm:text-xl lg:text-2xl font-medium text-center tracking-wide leading-relaxed mb-6 lg:mb-10 px-4 lg:px-0'>Eu já tinha trabalhado com outras agências antes, mas nunca vi nada parecido com o que a Helpu fez. O site que eles criaram para nós não é só visualmente impressionante, ele trabalha 24/7 como nosso melhor vendedor.</h3>
+            <div className="pers w-full lg:w-[40%] flex flex-col items-center justify-center gap-2">
+                <h1 className='text-xl sm:text-2xl lg:text-3xl font-medium'>Carlos Mendes</h1>
             </div>
         </div>  
     </div>

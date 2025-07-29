@@ -8,17 +8,17 @@ function Footer() {
   const message = "Vi seu site tenho interesse em entender mais";
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
   return (
-    <div className="section w-full sm:mt-30 ">
-      <div className="topfoot bg-[#8B5CF6] pt-12 pb-12 sm:pt-16 sm:pb-16 flex flex-col sm:flex-row items-center justify-between">
-        <div className="left w-full sm:w-1/2 px-4 sm:px-8 mb-8 sm:mb-0">
-          <div className="first order-1 font-[SansitaReg] text-[4vh] leading-[4.5vh] sm:text-[4.2rem] w-full sm:w-1/3 sm:leading-[5rem] mb-6 sm:mb-10">
+    <div className="section w-full">
+      <div className="topfoot bg-[#8B5CF6] pt-12 pb-12 sm:pt-16 sm:pb-16 flex flex-col lg:flex-row items-center justify-between">
+        <div className="left w-full lg:w-1/2 px-4 sm:px-6 lg:px-8 mb-8 lg:mb-0">
+          <div className="first order-1 font-[SansitaReg] text-3xl sm:text-4xl lg:text-5xl xl:text-6xl leading-tight w-full lg:w-2/3 mb-6 lg:mb-10">
             <h1 className="text-white">Seu Site Não Deveria Entediar.</h1>
           </div>
           <a 
             href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className='middle order-3 sm:order-2 w-full sm:w-fit text-center px-4 py-3 sm:px-4 sm:py-[1.6vh] bg-[--black] text-white whitespace-nowrap'
+            className='middle order-3 lg:order-2 w-full lg:w-fit text-center px-4 py-3 lg:px-4 lg:py-4 bg-black text-white whitespace-nowrap'
           >
             <div 
               className= {`${styles.masker} flex items-center 
@@ -27,7 +27,7 @@ function Footer() {
             >
               <span 
                 className={`${styles.spanMask} font-[Sansita] 
-                text-[1.8vh] sm:text-[2.1vh] capitalize tracking-normal 
+                text-base sm:text-lg capitalize tracking-normal 
                 font-semibold `}
               >
                 FAZER MEU SITE
@@ -43,15 +43,15 @@ function Footer() {
           </a>
         </div>
 
-        <div className="right order-2 sm:order-3 flex w-full sm:w-1/2 items-center justify-between px-4 sm:px-10">
-          <div className="rght1 w-full sm:w-2/3 flex flex-col items-center sm:items-end">
-            <h3 className="text-[1.8vh] sm:text-[1.4rem] font-[Sansita] font-medium text-white text-center sm:text-right">
+        <div className="right order-2 lg:order-3 flex w-full lg:w-1/2 items-center justify-between px-4 sm:px-6 lg:px-10">
+          <div className="rght1 w-full lg:w-2/3 flex flex-col items-center lg:items-end">
+            <h3 className="text-base sm:text-lg lg:text-xl font-[Sansita] font-medium text-white text-center lg:text-right">
               Vamos criar uma experiência digital que faça
               seus clientes pararem, prestarem atenção e
               tomarem ação. Porque experiências incríveis convertem.
             </h3>
           </div>
-          <div className="hidden sm:inline-block rght2 relative w-[150px] h-[150px] overflow-hidden">
+          <div className="hidden lg:inline-block rght2 relative w-[150px] h-[150px] overflow-hidden">
             <div className={`${styles.loopFoot} `}></div>
             <a 
               href={whatsappUrl}
@@ -72,35 +72,35 @@ function Footer() {
       </div>
 
 
-      <div className="downfoot w-full h-fit bg-[var(--black)] px-4 sm:px-8 py-8 sm:py-32">
-        <div className='flex flex-col sm:flex-row sm:items-start justify-between space-y-6 sm:space-y-0 sm:space-x-4'>
-          <div className=' hidden sm:inline-block '>
+      <div className="downfoot w-full h-fit bg-black px-4 sm:px-6 lg:px-8 py-8 sm:py-16 lg:py-24">
+        <div className='flex flex-col lg:flex-row lg:items-start justify-between space-y-6 lg:space-y-0 lg:space-x-4'>
+          <div className=' hidden lg:inline-block '>
             {["Home", "Soluções", "Sobre", "Equipe", "Contato"].map((item, index) => {
               return (
                 <div key={index} className='pb-4'>
-                  <h3 className='font-[SansitaReg] text-[2.5vh] text-white font-semibold'>
+                  <h3 className='font-[SansitaReg] text-lg text-white font-semibold'>
                     {item}
                   </h3>  
                 </div>
               ) 
             })}
           </div>
-          <div className='w-full sm:w-auto'>
-            <h1 className='text-white pb-6 sm:pb-10 font-[SansitaReg] text-[2.2vh] sm:text-[2.8vh] font-semibold text-center sm:text-left'>Receba cases e dicas que realmente convertem.</h1>
-            <div className="flex flex-col sm:flex-row gap-2 sm:gap-0">
+          <div className='w-full lg:w-auto'>
+            <h1 className='text-white pb-6 lg:pb-10 font-[SansitaReg] text-lg sm:text-xl font-semibold text-center lg:text-left'>Receba cases e dicas que realmente convertem.</h1>
+            <div className="flex flex-col lg:flex-row gap-2 lg:gap-0">
               <input 
                 type="text" 
                 placeholder="Digite seu endereço de email" 
-                className="bg-[var(--light)] w-full sm:w-[350px] h-[5vh] sm:h-[5.9vh] px-4 text-[1.8vh] sm:text-[2vh]"
+                className="bg-white w-full lg:w-[350px] h-12 lg:h-14 px-4 text-base"
               />
               <Button text="INSCREVER-SE" bgColor="bg-[#8B5CF6]" />
             </div>
           </div>
-          <div className='hidden sm:inline-block'>
+          <div className='hidden lg:inline-block'>
             {["Cases", "Blog", "Recursos", "Vagas", "Contato"].map((item, index) => {
               return (
                 <div key={index} className='pb-4'>
-                  <h3 className='font-[SansitaReg] text-[2.5vh] text-white font-semibold'>
+                  <h3 className='font-[SansitaReg] text-lg text-white font-semibold'>
                     {item}
                   </h3>  
                 </div>

@@ -46,13 +46,13 @@ function Real() {
     <div  
         data-color="salmon" 
         ref={container} 
-        className="real section w-full px-4 sm:px-8 mt-16 sm:mt-32"
+        className="real section w-full px-4 sm:px-6 lg:px-8 mt-12 sm:mt-16 lg:mt-24"
     >
       <div 
-        className="cont h-[400vh] relative"
+        className="cont h-[300vh] sm:h-[350vh] lg:h-[400vh] relative"
     >
         <div  
-            className="slides w-full h-[130vh] overflow-hidden
+            className="slides w-full h-screen overflow-hidden
              sticky top-0 left-0 flex"
         >
             {/* 1st slide */}
@@ -62,8 +62,8 @@ function Real() {
             >
                 
                 <div 
-                    className="text1 font-[SansitaReg] text-[5vh] leading-[5.5vh] text-center sm:text-left
-                    sm:text-[15vh] sm:leading-[18vh] mb-4 sm:mb-0"
+                    className="text1 font-[SansitaReg] text-4xl sm:text-5xl lg:text-7xl xl:text-8xl leading-tight text-center lg:text-left
+                    mb-6 lg:mb-0"
                 >
                     <h1 className="">
                         Resultados Reais,    
@@ -73,8 +73,8 @@ function Real() {
                     </h1>
                 </div>
                 <div 
-                    className="image relative sm:absolute w-[20vh] h-[20vh] sm:w-[45vh] sm:h-[45vh] 
-                    sm:top-1/2 sm:-translate-y-1/2 sm:translate-x-1/2 sm:right-0"
+                    className="image relative lg:absolute w-32 h-32 sm:w-40 sm:h-40 lg:w-60 lg:h-60 
+                    lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-1/2 lg:right-0"
                 >
                     <img 
                         src={img1}
@@ -89,32 +89,32 @@ function Real() {
                 justify-center flex-shrink-0 relative "
             >
                 <div 
-                    className="image absolute w-[15vh] h-[15vh] sm:w-[40vh] sm:h-[40vh] 
-                    top-4 sm:top-10 right-4 sm:right-1/6 sm:-translate-y-1/2"
+                    className="image absolute w-20 h-20 sm:w-32 sm:h-32 lg:w-48 lg:h-48 
+                    top-4 lg:top-10 right-4 lg:right-1/6 lg:-translate-y-1/2"
                 >
                     <img 
                         src={img2}
                         className="w-full h-full object-contain rounded-full"
                     />
                 </div>
-                <div className='w-[90%] sm:w-[60%] text-center font-[SansitaReg] relative px-4 sm:px-0'>
+                <div className='w-[90%] lg:w-[60%] text-center font-[SansitaReg] relative px-4 lg:px-0'>
                     <h3 
-                        className='font-[Sansita] w-full sm:w-1/3 text-center sm:text-left font-semibold 
-                        tracking-tight text-[1.8vh] sm:text-[2.2vh] mb-4 sm:mb-0 sm:absolute sm:top-0 sm:left-0 z-[3] 
-                        sm:-translate-y-1/2 sm:-translate-x-1/3'
+                        className='font-[Sansita] w-full lg:w-1/3 text-center lg:text-left font-semibold 
+                        tracking-tight text-sm sm:text-base lg:text-lg mb-4 lg:mb-0 lg:absolute lg:top-0 lg:left-0 z-[3] 
+                        lg:-translate-y-1/2 lg:-translate-x-1/3'
                     >
                         Não são apenas números. São negócios que cresceram, marcas que se destacaram e pessoas que realizaram seus sonhos através de sites que realmente funcionam.
                     </h3>
-                    <h1 className='font-semibold text-[8vh] sm:text-[20vh] leading-none text-white'>
+                    <h1 className='font-semibold text-6xl sm:text-7xl lg:text-9xl leading-none text-white'>
                         847
                     </h1>
-                    <h3 className='text-[2.2vh] sm:text-[5vh] font-semibold leading-[2.8vh] sm:leading-[7vh] px-2 sm:px-0'>
+                    <h3 className='text-xl sm:text-2xl lg:text-4xl font-semibold leading-tight px-2 lg:px-0'>
                         Sites entregues que não entediam ninguém.
                     </h3>    
                 </div>
                 <div 
-                    className="image absolute w-[10vh] h-[10vh] sm:w-[20vh] sm:h-[20vh] bottom-[15vh] left-4
-                    sm:top-2/3 sm:left-1/4 sm:-translate-x-1/2"
+                    className="image absolute w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bottom-20 left-4
+                    lg:top-2/3 lg:left-1/4 lg:-translate-x-1/2"
                 >
                     <img 
                         src={img4}
@@ -122,9 +122,9 @@ function Real() {
                     />
                 </div>
                 <div 
-                    className="image absolute w-[20vh] sm:w-[45vh] sm:h-[45vh] first-letter: 
-                    sm:bottom-0 sm:right-1/6 right-0 sm:-translate-x-2/3 sm:translate-y-1/2
-                    translate-y-[20vh]"
+                    className="image absolute w-32 h-32 sm:w-40 sm:h-40 lg:w-60 lg:h-60 
+                    lg:bottom-0 lg:right-1/6 right-0 lg:-translate-x-2/3 lg:translate-y-1/2
+                    translate-y-20"
                 >
                     <img 
                         src={img3}
@@ -132,9 +132,9 @@ function Real() {
                     />
                 </div>
                 <div 
-                    className="image absolute w-[20vh] top-10 -right-2/3 sm:w-[45vh] sm:h-[45vh] sm:top-1/2 
-                    sm:-translate-y-1/2 sm:translate-x-1/2
-                    sm:right-0 "
+                    className="image absolute w-32 h-32 sm:w-40 sm:h-40 lg:w-60 lg:h-60 top-10 -right-2/3 lg:top-1/2 
+                    lg:-translate-y-1/2 lg:translate-x-1/2
+                    lg:right-0 "
                 >
                     <img 
                         src={img5}
@@ -150,25 +150,25 @@ function Real() {
                 flex-shrink-0  relative"
             >
                 <div 
-                    className="image absolute w-[20vh] h-[20vh] sm:w-[45vh] sm:h-[45vh]  
-                    sm:top-20 sm:-translate-x-1/5 bottom-[20vh] right-[20vh]
-                    sm:-translate-y-1/2 sm:right-1/6"
+                    className="image absolute w-32 h-32 sm:w-40 sm:h-40 lg:w-60 lg:h-60  
+                    lg:top-20 lg:-translate-x-1/5 bottom-20 right-20
+                    lg:-translate-y-1/2 lg:right-1/6"
                 >
                     <img 
                         src={icon2}
                         className="w-full h-full object-contain rounded-full"
                     />
                 </div>
-                <div className='w-[60%] text-center font-[SansitaReg] relative'>
-                    <h1 className=' font-semibold text-[10vh] sm:text-[20vh] leading-none text-white'>
+                <div className='w-[80%] lg:w-[60%] text-center font-[SansitaReg] relative'>
+                    <h1 className=' font-semibold text-6xl sm:text-7xl lg:text-9xl leading-none text-white'>
                         100%
                     </h1>
-                    <h3 className='text-[3.5vh] whitespace-nowrap sm:text-[6vh] font-semibold sm:leading-[6vh]'>
+                    <h3 className='text-2xl sm:text-3xl lg:text-5xl font-semibold leading-tight'>
                         Focados em Converter.
                     </h3>    
                 </div>
                 <div 
-                    className="image absolute w-[30vh] sm:w-[60vh] sm:h-[60vh] bottom-10 right-2/4 
+                    className="image absolute w-48 h-48 sm:w-60 sm:h-60 lg:w-80 lg:h-80 bottom-10 right-2/4 
                     translate-y-1/3 -translate-x-1/5"
                 >
                     <img 
@@ -177,7 +177,7 @@ function Real() {
                     />
                 </div>
                 <div 
-                    className="hidden sm:inline-block image absolute w-[20vh] sm:w-[50vh] sm:h-[50vh] top-1/2 -translate-y-1/4 translate-x-1/3
+                    className="hidden lg:inline-block image absolute w-32 h-32 lg:w-64 lg:h-64 top-1/2 -translate-y-1/4 translate-x-1/3
                     right-0 "
                 >
                     <img 
@@ -194,7 +194,7 @@ function Real() {
                 relative flex-shrink-0 "
             >
                 <div 
-                    className="hidden sm:inline-block image absolute w-[20vh] h-[20vh] sm:w-[40vh] sm:h-[40vh] top-10 translate-x-1/2
+                    className="hidden lg:inline-block image absolute w-32 h-32 lg:w-48 lg:h-48 top-10 translate-x-1/2
                     -translate-y-1/2 right-2/3"
                 >
                     <img 
@@ -202,16 +202,16 @@ function Real() {
                         className="w-full h-full object-contain rounded-full"
                     />
                 </div>
-                <div className='w-[60%] text-center font-[SansitaReg] relative'>                   
-                    <h1 className=' font-semibold text-[10vh] sm:text-[20vh] leading-none text-white'>
+                <div className='w-[80%] lg:w-[60%] text-center font-[SansitaReg] relative'>                   
+                    <h1 className=' font-semibold text-6xl sm:text-7xl lg:text-9xl leading-none text-white'>
                         98%
                     </h1>
-                    <h3 className='text-[3.1vh] leading-[3.4vh] sm:text-[6vh] font-semibold sm:leading-[8vh]'>
+                    <h3 className='text-xl sm:text-2xl lg:text-4xl font-semibold leading-tight'>
                         Taxa de Satisfação dos <br/> Nossos Clientes.
                     </h3>    
                 </div>
                 <div 
-                    className="image7 absolute sm:w-[45vh] sm:h-[45vh] bottom-0 right-2/4 
+                    className="image7 absolute w-40 h-40 sm:w-48 sm:h-48 lg:w-60 lg:h-60 bottom-0 right-2/4 
                     translate-y-1/2 -translate-x-1/2"
                 >
                     <img 
@@ -220,8 +220,8 @@ function Real() {
                     />
                 </div>
                 <div 
-                    className="image absolute top-0 -right-10 w-[20vh] h-[20vh] sm:w-[45vh] sm:h-[45vh] sm:top-0 sm:translate-y-1/5
-                    sm:translate-x-2/3  sm:right-0 "
+                    className="image absolute top-0 -right-10 w-32 h-32 sm:w-40 sm:h-40 lg:w-60 lg:h-60 lg:top-0 lg:translate-y-1/5
+                    lg:translate-x-2/3  lg:right-0 "
                 >
                     <img 
                         src={img9}
@@ -229,7 +229,7 @@ function Real() {
                     />
                 </div>
                 <div 
-                    className="image absolute w-[15vh] h-[15vh] top-2/3 translate-y-1/5
+                    className="image absolute w-20 h-20 sm:w-24 sm:h-24 top-2/3 translate-y-1/5
                     -translate-x-1/3  right-1/4 "
                 >
                     <img 

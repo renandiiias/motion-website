@@ -119,21 +119,10 @@ function Home() {
                         Chega de sites mornos que ninguém lembra. Criamos experiências imersivas que transformam visitantes em clientes apaixonados.
                     </p>
                     <div className="flex flex-wrap gap-2 sm:gap-4 justify-center text-[1.6vh] sm:text-[1.8vh] font-[Sansita] mb-8 sm:mb-12">
-                        {["imersivo", "memorável", "persuasivo"].map((word, index) => (
-                            <span key={index} className="lft text-[#8B5CF6] font-semibold">
-                                {word}
-                            </span>
-                        ))}
-                        {["conversivo", "impactante", "irresistível"].map((word, index) => (
-                            <span key={index} className="rgt text-[#8B5CF6] font-semibold">
-                                {word}
-                            </span>
-                        ))}
                     </div>
                 </div>
             </div>
         </div>
-        <Row />
     </div>
     )
 }
