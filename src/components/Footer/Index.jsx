@@ -95,9 +95,8 @@ function Footer() {
               />
               <Button text="INSCREVER-SE" bgColor="bg-[#8B5CF6]" />
             </div>
-            </div>
           </div>
-          <div className=' hidden sm:inline-block '>
+          <div className='hidden sm:inline-block'>
             {["Cases", "Blog", "Recursos", "Vagas", "Contato"].map((item, index) => {
               return (
                 <div key={index} className='pb-4'>
@@ -107,7 +106,7 @@ function Footer() {
                 </div>
               ) 
             })}
-          </div>  
+          </div>
         </div>
       </div>
     </div>
