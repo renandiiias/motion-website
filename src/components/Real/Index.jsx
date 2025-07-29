@@ -29,7 +29,7 @@ function Real() {
             trigger: ".real",
             start: "top top",
             end: "bottom bottom",
-            scrub: 1,
+            scrub: 0.3,
             }
          });
          tl.to(".slide", {
@@ -160,14 +160,6 @@ function Real() {
                     />
                 </div>
                 <div className='w-[60%] text-center font-[SansitaReg] relative'>
-                    <h3 
-                        className='font-[Sansita] sm:w-1/3 text-left font-semibold tracking-tight 
-                        text-[2vh]
-                        sm:text-[2.5vh] absolute sm:top-0 sm:left-0 -translate-x-1/2 -translate-y-[30vh] z-[3] 
-                        sm:-translate-y-1/2 sm:-translate-x-1/3'
-                    >
-                        Uma equipe apaixonada por criar experiências que marcam. Cada pessoa aqui vive e respira conversão através do design.
-                    </h3>
                     <h1 className=' font-semibold text-[10vh] sm:text-[20vh] leading-none text-white'>
                         100%
                     </h1>
