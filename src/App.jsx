@@ -8,9 +8,24 @@ import Para from './components/Paragraph/Index'
 import Para2 from './components/Paragraph2/Index'
 import Real from './components/Real/Index'
 import Team from './components/Team/Index'
+import LocomotiveScroll from 'locomotive-scroll';
 import Footer from './components/Footer/Index';
 
 function App() {
+  const scrollRef = useRef(null);
+
+  useEffect(() => {
+    if (scrollRef.current) {
+      const scroll = new LocomotiveScroll({
+        el: scrollRef.current,
+        smooth: true, 
+      });
+
+      return () => {
+        scroll.destroy();
+      };
+    }
+  }, []);
 
   useEffect(() => {
     const list = document.querySelectorAll('.section')
@@ -33,7 +48,7 @@ function App() {
 
   return (
     
-    <div className='section main w-full overflow-x-hidden'>
+    <div className='section main w-full '>
       <Home  />
       <Craft />
       <Real />

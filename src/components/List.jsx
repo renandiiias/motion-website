@@ -12,6 +12,7 @@ function List() {
         { name: "Danilo", role: "Administrativo/Financeiro" },
         { name: "Fabrício", role: "Gestor de Contas e Experiência" },
         { name: "Luís", role: "Gestor de Tráfego e Performance" },
+        { name: "Arthur", role: "Analista de Oportunidades" },
         { name: "Talita", role: "Analista de Oportunidades" },
         { name: "Juliana", role: "Analista de Oportunidades" },
         { name: "Theo", role: "Designer" },
