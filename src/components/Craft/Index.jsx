@@ -89,14 +89,14 @@ function Craft() {
     >
         <div className="ltext w-full sm:sticky sm:top-[10%] left-0 sm:w-1/2 mb-8 sm:mb-0">
             <p 
-                className="ptag font-[Sansita] text-[1.8vh] sm:text-[2.9vh] 
-                font-medium leading-[2.4vh] sm:leading-[4.2vh] mb-6 sm:mb-0 px-2 sm:px-0"
+                className="ptag font-[Sansita] text-[2.2vh] sm:text-[2.9vh] 
+                font-medium leading-[3.2vh] sm:leading-[4.2vh] mb-6 sm:mb-0"
             >
                 Somos a Helpu, e acreditamos que o seu site não deveria ser apenas mais um na multidão.
                 Criamos experiências digitais que fazem as pessoas pararem, prestarem atenção e tomarem ação.
                 Porque no final das contas, experiências incríveis geram mais leads, mais vendas e mais sucesso.
             </p>
-            <h1 className="texthead font-[SansitaReg] text-[3.5vh] leading-[4vh] sm:text-[8.5vh] sm:leading-[10vh] mt-6 mb-6 sm:mt-10 sm:mb-10 px-2 sm:px-0">
+            <h1 className="texthead font-[SansitaReg] text-[4vh] leading-[4.5vh] sm:text-[9.8vh] sm:leading-[12vh] mt-6 mb-6 sm:mt-10 sm:mb-10">
                 Sites Que Não Entediam.<br/>
                 Experiências Que Convertem.
             </h1>
