@@ -97,8 +97,8 @@ function Craft() {
                 Porque no final das contas, experiências incríveis geram mais leads, mais vendas e mais sucesso.
             </p>
             <h1 className="texthead font-[SansitaReg] text-[3.5vh] leading-[4vh] sm:text-[8.5vh] sm:leading-[10vh] mt-6 mb-6 sm:mt-10 sm:mb-10 px-2 sm:px-0">
-                Sites Que Não<br className="sm:hidden"/> Entediam.<br/>
-                Experiências Que<br className="sm:hidden"/> Convertem.
+                Sites Que Não Entediam.<br/>
+                Experiências Que Convertem.
             </h1>
             {/* button */}
             <Button  bgColor="bg-none" text="NOSSOS SITES" />
